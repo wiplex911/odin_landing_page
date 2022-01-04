@@ -1,0 +1,148 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+li a {
+    text-decoration: none;
+    color:#E5E7EB;
+}
+
+.headerLogoText {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.secondaryText, .titleText {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sectionHeader {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px 20%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.awesomeHeader {
+    display: flex;
+    padding: 80px 0;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.leftText {
+    width: 100px;
+    flex-grow: 1;
+}
+
+
+.placeholderImage {
+    background-color: grey;
+    display: flex;
+    width: 100px;
+    flex-grow: 1;   
+    justify-content: center; 
+    align-items: center;
+}
+
+.headerLinks {
+    display:flex;
+    list-style: none;
+    gap: 16px;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 6px 30px;
+    margin-top: 12px;
+    border-radius: 8px;
+    border: none;
+}
+.square {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    padding-bottom: 5%; 
+}
+
+.squares {
+    display: flex;   
+    gap: 60px; 
+    flex-wrap: wrap;
+    flex:1;
+}
+
+.squareContent {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.squareText {
+    text-align: center;
+    margin-top: 6px;
+}
+
+.contentText {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 30px 0;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.quote div {
+    padding: 0 20%;
+}
+
+.quoteText{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 800;
+}
+
+.copyright {
+    background-color: #1F2937;
+    color:#E5E7EB;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
