@@ -146,3 +146,32 @@ button {
     justify-content: center;
     align-items: center;
 }
+.callToAction{
+    padding: 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    gap: 40px;
+    border-radius: 10px;
+    justify-content:space-between;
+    align-items: center;
+    padding: 40px 5%;
+    width:40%;
+}
+
+.box button {
+    border: 1px solid #F9FAF8;
+    margin: 0;
+    width: 130px;
+}
+
+.actionHeader {
+    font-size: 24px;
+    font-weight: 800;
+}
