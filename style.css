@@ -35,6 +35,8 @@ li a {
 .awesomeHeader {
     display: flex;
     padding: 80px 0;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .title {
@@ -44,7 +46,7 @@ li a {
 }
 
 .leftText {
-    width: 100px;
+    width: 200px;
     flex-grow: 1;
 }
 
@@ -52,7 +54,8 @@ li a {
 .placeholderImage {
     background-color: grey;
     display: flex;
-    width: 100px;
+    min-width: 400px;
+    height: 200px;
     flex-grow: 1;   
     justify-content: center; 
     align-items: center;
